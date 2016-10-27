@@ -129,6 +129,8 @@
             this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripSeparator();
             this.messageBrowserCtxRefreshMessagesMenuButton = new System.Windows.Forms.ToolStripMenuItem();
             this.messageBrowserCtxPurgeQueueMenuButton = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.messageMaxShowComboBox = new System.Windows.Forms.ToolStripComboBox();
             this.topToolStripContainer.TopToolStripPanel.SuspendLayout();
             this.topToolStripContainer.SuspendLayout();
             this.mainMenuBar.SuspendLayout();
@@ -154,7 +156,7 @@
             // 
             // topToolStripContainer.ContentPanel
             // 
-            this.topToolStripContainer.ContentPanel.Size = new System.Drawing.Size(860, 3);
+            this.topToolStripContainer.ContentPanel.Size = new System.Drawing.Size(860, 2);
             this.topToolStripContainer.Dock = System.Windows.Forms.DockStyle.Top;
             this.topToolStripContainer.LeftToolStripPanelVisible = false;
             this.topToolStripContainer.Location = new System.Drawing.Point(0, 0);
@@ -180,9 +182,9 @@
             this.messageMenuBar,
             this.toolsMenuBar,
             this.helpMenuBar});
-            this.mainMenuBar.Location = new System.Drawing.Point(0, 0);
+            this.mainMenuBar.Location = new System.Drawing.Point(0, 25);
             this.mainMenuBar.Name = "mainMenuBar";
-            this.mainMenuBar.Size = new System.Drawing.Size(860, 24);
+            this.mainMenuBar.Size = new System.Drawing.Size(860, 25);
             this.mainMenuBar.TabIndex = 0;
             this.mainMenuBar.Text = "menuStrip1";
             // 
@@ -202,80 +204,80 @@
             this.fileRecentFilesMenuSeparator,
             this.fileExitMenuButton});
             this.fileMenuBar.Name = "fileMenuBar";
-            this.fileMenuBar.Size = new System.Drawing.Size(37, 20);
+            this.fileMenuBar.Size = new System.Drawing.Size(39, 21);
             this.fileMenuBar.Text = "&File";
             // 
             // fileNewQSetMenuButton
             // 
             this.fileNewQSetMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("fileNewQSetMenuButton.Image")));
             this.fileNewQSetMenuButton.Name = "fileNewQSetMenuButton";
-            this.fileNewQSetMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.fileNewQSetMenuButton.Size = new System.Drawing.Size(159, 22);
             this.fileNewQSetMenuButton.Text = "&New";
             // 
             // fileOpenQSetMenuButton
             // 
             this.fileOpenQSetMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("fileOpenQSetMenuButton.Image")));
             this.fileOpenQSetMenuButton.Name = "fileOpenQSetMenuButton";
-            this.fileOpenQSetMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.fileOpenQSetMenuButton.Size = new System.Drawing.Size(159, 22);
             this.fileOpenQSetMenuButton.Text = "&Open";
             // 
             // fileCloseQSetMenuButton
             // 
             this.fileCloseQSetMenuButton.Name = "fileCloseQSetMenuButton";
-            this.fileCloseQSetMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.fileCloseQSetMenuButton.Size = new System.Drawing.Size(159, 22);
             this.fileCloseQSetMenuButton.Text = "&Close";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(156, 6);
             // 
             // fileNewMessageMenuButton
             // 
             this.fileNewMessageMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("fileNewMessageMenuButton.Image")));
             this.fileNewMessageMenuButton.Name = "fileNewMessageMenuButton";
-            this.fileNewMessageMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.fileNewMessageMenuButton.Size = new System.Drawing.Size(159, 22);
             this.fileNewMessageMenuButton.Text = "New Message";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(156, 6);
             // 
             // fileSaveQSetMenuButton
             // 
             this.fileSaveQSetMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("fileSaveQSetMenuButton.Image")));
             this.fileSaveQSetMenuButton.Name = "fileSaveQSetMenuButton";
-            this.fileSaveQSetMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.fileSaveQSetMenuButton.Size = new System.Drawing.Size(159, 22);
             this.fileSaveQSetMenuButton.Text = "&Save";
             // 
             // fileSaveQSetAsMenuButton
             // 
             this.fileSaveQSetAsMenuButton.Name = "fileSaveQSetAsMenuButton";
-            this.fileSaveQSetAsMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.fileSaveQSetAsMenuButton.Size = new System.Drawing.Size(159, 22);
             this.fileSaveQSetAsMenuButton.Text = "Save &As...";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(149, 6);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(156, 6);
             // 
             // fileRecentFilesMenuButton
             // 
             this.fileRecentFilesMenuButton.Name = "fileRecentFilesMenuButton";
-            this.fileRecentFilesMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.fileRecentFilesMenuButton.Size = new System.Drawing.Size(159, 22);
             this.fileRecentFilesMenuButton.Text = "Recent Files";
             this.fileRecentFilesMenuButton.VisibleChanged += new System.EventHandler(this.fileRecentFilesMenuButton_VisibleChanged);
             // 
             // fileRecentFilesMenuSeparator
             // 
             this.fileRecentFilesMenuSeparator.Name = "fileRecentFilesMenuSeparator";
-            this.fileRecentFilesMenuSeparator.Size = new System.Drawing.Size(149, 6);
+            this.fileRecentFilesMenuSeparator.Size = new System.Drawing.Size(156, 6);
             // 
             // fileExitMenuButton
             // 
             this.fileExitMenuButton.Name = "fileExitMenuButton";
-            this.fileExitMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.fileExitMenuButton.Size = new System.Drawing.Size(159, 22);
             this.fileExitMenuButton.Text = "E&xit";
             // 
             // viewMenuBar
@@ -286,7 +288,7 @@
             this.viewMessageViewerMenuButton,
             this.viewQSetMonitorMenuButton});
             this.viewMenuBar.Name = "viewMenuBar";
-            this.viewMenuBar.Size = new System.Drawing.Size(44, 20);
+            this.viewMenuBar.Size = new System.Drawing.Size(47, 21);
             this.viewMenuBar.Text = "&View";
             // 
             // viewQSetExplorerMenuButton
@@ -296,7 +298,7 @@
             this.viewQSetExplorerMenuButton.CheckState = System.Windows.Forms.CheckState.Checked;
             this.viewQSetExplorerMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("viewQSetExplorerMenuButton.Image")));
             this.viewQSetExplorerMenuButton.Name = "viewQSetExplorerMenuButton";
-            this.viewQSetExplorerMenuButton.Size = new System.Drawing.Size(174, 22);
+            this.viewQSetExplorerMenuButton.Size = new System.Drawing.Size(187, 22);
             this.viewQSetExplorerMenuButton.Text = "Q Set Explorer";
             this.viewQSetExplorerMenuButton.CheckedChanged += new System.EventHandler(this.viewQSetExplorerMenuButton_CheckedChanged);
             // 
@@ -307,7 +309,7 @@
             this.viewPropertiesWindowMenuButton.CheckState = System.Windows.Forms.CheckState.Checked;
             this.viewPropertiesWindowMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("viewPropertiesWindowMenuButton.Image")));
             this.viewPropertiesWindowMenuButton.Name = "viewPropertiesWindowMenuButton";
-            this.viewPropertiesWindowMenuButton.Size = new System.Drawing.Size(174, 22);
+            this.viewPropertiesWindowMenuButton.Size = new System.Drawing.Size(187, 22);
             this.viewPropertiesWindowMenuButton.Text = "Properties Window";
             this.viewPropertiesWindowMenuButton.CheckedChanged += new System.EventHandler(this.viewPropertiesWindowMenuButton_CheckedChanged);
             // 
@@ -318,7 +320,7 @@
             this.viewMessageViewerMenuButton.CheckState = System.Windows.Forms.CheckState.Checked;
             this.viewMessageViewerMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("viewMessageViewerMenuButton.Image")));
             this.viewMessageViewerMenuButton.Name = "viewMessageViewerMenuButton";
-            this.viewMessageViewerMenuButton.Size = new System.Drawing.Size(174, 22);
+            this.viewMessageViewerMenuButton.Size = new System.Drawing.Size(187, 22);
             this.viewMessageViewerMenuButton.Text = "Message Viewer";
             this.viewMessageViewerMenuButton.CheckedChanged += new System.EventHandler(this.viewMessageViewerMenuButton_CheckedChanged);
             // 
@@ -329,7 +331,7 @@
             this.viewQSetMonitorMenuButton.CheckState = System.Windows.Forms.CheckState.Checked;
             this.viewQSetMonitorMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("viewQSetMonitorMenuButton.Image")));
             this.viewQSetMonitorMenuButton.Name = "viewQSetMonitorMenuButton";
-            this.viewQSetMonitorMenuButton.Size = new System.Drawing.Size(174, 22);
+            this.viewQSetMonitorMenuButton.Size = new System.Drawing.Size(187, 22);
             this.viewQSetMonitorMenuButton.Text = "Q Set Monitor";
             this.viewQSetMonitorMenuButton.CheckedChanged += new System.EventHandler(this.viewQSetMonitorMenuButton_CheckedChanged);
             // 
@@ -342,14 +344,14 @@
             this.qSetDeleteItemMenuButton,
             this.qSetPurgeAllQueuesMenuButton});
             this.qSetMenuBar.Name = "qSetMenuBar";
-            this.qSetMenuBar.Size = new System.Drawing.Size(47, 20);
+            this.qSetMenuBar.Size = new System.Drawing.Size(52, 21);
             this.qSetMenuBar.Text = "Q &Set";
             // 
             // qSetAddActiveQueueMenuButton
             // 
             this.qSetAddActiveQueueMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("qSetAddActiveQueueMenuButton.Image")));
             this.qSetAddActiveQueueMenuButton.Name = "qSetAddActiveQueueMenuButton";
-            this.qSetAddActiveQueueMenuButton.Size = new System.Drawing.Size(206, 22);
+            this.qSetAddActiveQueueMenuButton.Size = new System.Drawing.Size(221, 22);
             this.qSetAddActiveQueueMenuButton.Text = "Add Active Queue To Set";
             this.qSetAddActiveQueueMenuButton.Visible = false;
             // 
@@ -357,28 +359,28 @@
             // 
             this.qSetNewFolderMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("qSetNewFolderMenuButton.Image")));
             this.qSetNewFolderMenuButton.Name = "qSetNewFolderMenuButton";
-            this.qSetNewFolderMenuButton.Size = new System.Drawing.Size(206, 22);
+            this.qSetNewFolderMenuButton.Size = new System.Drawing.Size(221, 22);
             this.qSetNewFolderMenuButton.Text = "New Folder";
             // 
             // qSetRenameFolderMenuButton
             // 
             this.qSetRenameFolderMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("qSetRenameFolderMenuButton.Image")));
             this.qSetRenameFolderMenuButton.Name = "qSetRenameFolderMenuButton";
-            this.qSetRenameFolderMenuButton.Size = new System.Drawing.Size(206, 22);
+            this.qSetRenameFolderMenuButton.Size = new System.Drawing.Size(221, 22);
             this.qSetRenameFolderMenuButton.Text = "Rename";
             // 
             // qSetDeleteItemMenuButton
             // 
             this.qSetDeleteItemMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("qSetDeleteItemMenuButton.Image")));
             this.qSetDeleteItemMenuButton.Name = "qSetDeleteItemMenuButton";
-            this.qSetDeleteItemMenuButton.Size = new System.Drawing.Size(206, 22);
+            this.qSetDeleteItemMenuButton.Size = new System.Drawing.Size(221, 22);
             this.qSetDeleteItemMenuButton.Text = "Delete Item";
             // 
             // qSetPurgeAllQueuesMenuButton
             // 
             this.qSetPurgeAllQueuesMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("qSetPurgeAllQueuesMenuButton.Image")));
             this.qSetPurgeAllQueuesMenuButton.Name = "qSetPurgeAllQueuesMenuButton";
-            this.qSetPurgeAllQueuesMenuButton.Size = new System.Drawing.Size(206, 22);
+            this.qSetPurgeAllQueuesMenuButton.Size = new System.Drawing.Size(221, 22);
             this.qSetPurgeAllQueuesMenuButton.Text = "Purge All Queues";
             // 
             // queueMenuBar
@@ -392,14 +394,14 @@
             this.queueRefreshMenuButton,
             this.queuePurgeMenuButton});
             this.queueMenuBar.Name = "queueMenuBar";
-            this.queueMenuBar.Size = new System.Drawing.Size(54, 20);
+            this.queueMenuBar.Size = new System.Drawing.Size(58, 21);
             this.queueMenuBar.Text = "&Queue";
             // 
             // queueOpenMenuButton
             // 
             this.queueOpenMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("queueOpenMenuButton.Image")));
             this.queueOpenMenuButton.Name = "queueOpenMenuButton";
-            this.queueOpenMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.queueOpenMenuButton.Size = new System.Drawing.Size(124, 22);
             this.queueOpenMenuButton.Text = "Open...";
             this.queueOpenMenuButton.EnabledChanged += new System.EventHandler(this.queueOpenMenuButton_EnabledChanged);
             this.queueOpenMenuButton.VisibleChanged += new System.EventHandler(this.queueOpenMenuButton_VisibleChanged);
@@ -408,7 +410,7 @@
             // 
             this.queueBrowseMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("queueBrowseMenuButton.Image")));
             this.queueBrowseMenuButton.Name = "queueBrowseMenuButton";
-            this.queueBrowseMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.queueBrowseMenuButton.Size = new System.Drawing.Size(124, 22);
             this.queueBrowseMenuButton.Text = "Search...";
             this.queueBrowseMenuButton.EnabledChanged += new System.EventHandler(this.queueBrowseMenuButton_EnabledChanged);
             // 
@@ -416,7 +418,7 @@
             // 
             this.queueCreateMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("queueCreateMenuButton.Image")));
             this.queueCreateMenuButton.Name = "queueCreateMenuButton";
-            this.queueCreateMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.queueCreateMenuButton.Size = new System.Drawing.Size(124, 22);
             this.queueCreateMenuButton.Text = "Create...";
             this.queueCreateMenuButton.EnabledChanged += new System.EventHandler(this.queueCreateMenuButton_EnabledChanged);
             // 
@@ -424,20 +426,20 @@
             // 
             this.queueDeleteMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("queueDeleteMenuButton.Image")));
             this.queueDeleteMenuButton.Name = "queueDeleteMenuButton";
-            this.queueDeleteMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.queueDeleteMenuButton.Size = new System.Drawing.Size(124, 22);
             this.queueDeleteMenuButton.Text = "Delete...";
             this.queueDeleteMenuButton.EnabledChanged += new System.EventHandler(this.queueDeleteMenuButton_EnabledChanged);
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(149, 6);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(121, 6);
             // 
             // queueRefreshMenuButton
             // 
             this.queueRefreshMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("queueRefreshMenuButton.Image")));
             this.queueRefreshMenuButton.Name = "queueRefreshMenuButton";
-            this.queueRefreshMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.queueRefreshMenuButton.Size = new System.Drawing.Size(124, 22);
             this.queueRefreshMenuButton.Text = "Refresh";
             this.queueRefreshMenuButton.EnabledChanged += new System.EventHandler(this.queueRefreshMenuButton_EnabledChanged);
             // 
@@ -445,7 +447,7 @@
             // 
             this.queuePurgeMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("queuePurgeMenuButton.Image")));
             this.queuePurgeMenuButton.Name = "queuePurgeMenuButton";
-            this.queuePurgeMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.queuePurgeMenuButton.Size = new System.Drawing.Size(124, 22);
             this.queuePurgeMenuButton.Text = "Purge";
             this.queuePurgeMenuButton.EnabledChanged += new System.EventHandler(this.queuePurgeMenuButton_EnabledChanged);
             // 
@@ -457,14 +459,14 @@
             this.messageMoveMenuButton,
             this.messageDeleteMenuButton});
             this.messageMenuBar.Name = "messageMenuBar";
-            this.messageMenuBar.Size = new System.Drawing.Size(65, 20);
+            this.messageMenuBar.Size = new System.Drawing.Size(73, 21);
             this.messageMenuBar.Text = "Message";
             // 
             // messageNewMenuButton
             // 
             this.messageNewMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("messageNewMenuButton.Image")));
             this.messageNewMenuButton.Name = "messageNewMenuButton";
-            this.messageNewMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.messageNewMenuButton.Size = new System.Drawing.Size(133, 22);
             this.messageNewMenuButton.Text = "New...";
             this.messageNewMenuButton.EnabledChanged += new System.EventHandler(this.messageNewMenuButton_EnabledChanged);
             // 
@@ -472,7 +474,7 @@
             // 
             this.messageForwardMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("messageForwardMenuButton.Image")));
             this.messageForwardMenuButton.Name = "messageForwardMenuButton";
-            this.messageForwardMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.messageForwardMenuButton.Size = new System.Drawing.Size(133, 22);
             this.messageForwardMenuButton.Text = "Forward...";
             this.messageForwardMenuButton.EnabledChanged += new System.EventHandler(this.messageForwardMenuButton_EnabledChanged);
             // 
@@ -480,7 +482,7 @@
             // 
             this.messageMoveMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("messageMoveMenuButton.Image")));
             this.messageMoveMenuButton.Name = "messageMoveMenuButton";
-            this.messageMoveMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.messageMoveMenuButton.Size = new System.Drawing.Size(133, 22);
             this.messageMoveMenuButton.Text = "Move...";
             this.messageMoveMenuButton.EnabledChanged += new System.EventHandler(this.messageMoveMenuButton_EnabledChanged);
             // 
@@ -488,7 +490,7 @@
             // 
             this.messageDeleteMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("messageDeleteMenuButton.Image")));
             this.messageDeleteMenuButton.Name = "messageDeleteMenuButton";
-            this.messageDeleteMenuButton.Size = new System.Drawing.Size(152, 22);
+            this.messageDeleteMenuButton.Size = new System.Drawing.Size(133, 22);
             this.messageDeleteMenuButton.Text = "Delete...";
             this.messageDeleteMenuButton.EnabledChanged += new System.EventHandler(this.messageDeleteMenuButton_EnabledChanged);
             // 
@@ -499,26 +501,26 @@
             this.toolsNewServiceClientMenuSeparator,
             this.toolsOptionsMenuButton});
             this.toolsMenuBar.Name = "toolsMenuBar";
-            this.toolsMenuBar.Size = new System.Drawing.Size(48, 20);
+            this.toolsMenuBar.Size = new System.Drawing.Size(52, 21);
             this.toolsMenuBar.Text = "&Tools";
             // 
             // toolsNewWebServiceClientMenuButton
             // 
             this.toolsNewWebServiceClientMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("toolsNewWebServiceClientMenuButton.Image")));
             this.toolsNewWebServiceClientMenuButton.Name = "toolsNewWebServiceClientMenuButton";
-            this.toolsNewWebServiceClientMenuButton.Size = new System.Drawing.Size(199, 22);
+            this.toolsNewWebServiceClientMenuButton.Size = new System.Drawing.Size(214, 22);
             this.toolsNewWebServiceClientMenuButton.Text = "New Web Service Client";
             this.toolsNewWebServiceClientMenuButton.VisibleChanged += new System.EventHandler(this.toolsNewWebServiceClientMenuButton_VisibleChanged);
             // 
             // toolsNewServiceClientMenuSeparator
             // 
             this.toolsNewServiceClientMenuSeparator.Name = "toolsNewServiceClientMenuSeparator";
-            this.toolsNewServiceClientMenuSeparator.Size = new System.Drawing.Size(196, 6);
+            this.toolsNewServiceClientMenuSeparator.Size = new System.Drawing.Size(211, 6);
             // 
             // toolsOptionsMenuButton
             // 
             this.toolsOptionsMenuButton.Name = "toolsOptionsMenuButton";
-            this.toolsOptionsMenuButton.Size = new System.Drawing.Size(199, 22);
+            this.toolsOptionsMenuButton.Size = new System.Drawing.Size(214, 22);
             this.toolsOptionsMenuButton.Text = "&Options...";
             // 
             // helpMenuBar
@@ -526,13 +528,13 @@
             this.helpMenuBar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.helpAboutMenuButton});
             this.helpMenuBar.Name = "helpMenuBar";
-            this.helpMenuBar.Size = new System.Drawing.Size(44, 20);
+            this.helpMenuBar.Size = new System.Drawing.Size(47, 21);
             this.helpMenuBar.Text = "&Help";
             // 
             // helpAboutMenuButton
             // 
             this.helpAboutMenuButton.Name = "helpAboutMenuButton";
-            this.helpAboutMenuButton.Size = new System.Drawing.Size(107, 22);
+            this.helpAboutMenuButton.Size = new System.Drawing.Size(111, 22);
             this.helpAboutMenuButton.Text = "&About";
             // 
             // mainToolBar
@@ -567,10 +569,12 @@
             this.messageNewToolButton,
             this.messageForwardToolButton,
             this.messageMoveToolButton,
-            this.messageDeleteToolButton});
-            this.mainToolBar.Location = new System.Drawing.Point(3, 24);
+            this.messageDeleteToolButton,
+            this.toolStripSeparator8,
+            this.messageMaxShowComboBox});
+            this.mainToolBar.Location = new System.Drawing.Point(3, 0);
             this.mainToolBar.Name = "mainToolBar";
-            this.mainToolBar.Size = new System.Drawing.Size(610, 25);
+            this.mainToolBar.Size = new System.Drawing.Size(750, 25);
             this.mainToolBar.TabIndex = 0;
             this.mainToolBar.Text = "toolStrip1";
             // 
@@ -613,7 +617,7 @@
             // 
             this.fileNewMessageToolButton.Image = ((System.Drawing.Image)(resources.GetObject("fileNewMessageToolButton.Image")));
             this.fileNewMessageToolButton.Name = "fileNewMessageToolButton";
-            this.fileNewMessageToolButton.Size = new System.Drawing.Size(96, 22);
+            this.fileNewMessageToolButton.Size = new System.Drawing.Size(107, 22);
             this.fileNewMessageToolButton.Text = "New Message";
             this.fileNewMessageToolButton.ToolTipText = "New Message";
             this.fileNewMessageToolButton.Click += new System.EventHandler(this.fileNewMessageToolButton_Click);
@@ -887,34 +891,34 @@
             this.qSetCtxPurgeQueue,
             this.qSetCtxDeleteQueue});
             this.qSetCtxMenu.Name = "qSetCtxMenu";
-            this.qSetCtxMenu.Size = new System.Drawing.Size(207, 248);
+            this.qSetCtxMenu.Size = new System.Drawing.Size(222, 226);
             this.qSetCtxMenu.Text = "New Folder";
             // 
             // qSetCtxAddActiveQueueToSet
             // 
             this.qSetCtxAddActiveQueueToSet.Image = ((System.Drawing.Image)(resources.GetObject("qSetCtxAddActiveQueueToSet.Image")));
             this.qSetCtxAddActiveQueueToSet.Name = "qSetCtxAddActiveQueueToSet";
-            this.qSetCtxAddActiveQueueToSet.Size = new System.Drawing.Size(206, 22);
+            this.qSetCtxAddActiveQueueToSet.Size = new System.Drawing.Size(221, 22);
             this.qSetCtxAddActiveQueueToSet.Text = "Add Active Queue To Set";
             this.qSetCtxAddActiveQueueToSet.VisibleChanged += new System.EventHandler(this.qSetCtxAddActiveQueueToSet_VisibleChanged);
             // 
             // qSetCtxAddActiveQueueToSetMenuSeparator
             // 
             this.qSetCtxAddActiveQueueToSetMenuSeparator.Name = "qSetCtxAddActiveQueueToSetMenuSeparator";
-            this.qSetCtxAddActiveQueueToSetMenuSeparator.Size = new System.Drawing.Size(203, 6);
+            this.qSetCtxAddActiveQueueToSetMenuSeparator.Size = new System.Drawing.Size(218, 6);
             // 
             // qSetCtxNewFolder
             // 
             this.qSetCtxNewFolder.Image = ((System.Drawing.Image)(resources.GetObject("qSetCtxNewFolder.Image")));
             this.qSetCtxNewFolder.Name = "qSetCtxNewFolder";
-            this.qSetCtxNewFolder.Size = new System.Drawing.Size(206, 22);
+            this.qSetCtxNewFolder.Size = new System.Drawing.Size(221, 22);
             this.qSetCtxNewFolder.Text = "New Folder";
             // 
             // qSetCtxRenameFolder
             // 
             this.qSetCtxRenameFolder.Image = ((System.Drawing.Image)(resources.GetObject("qSetCtxRenameFolder.Image")));
             this.qSetCtxRenameFolder.Name = "qSetCtxRenameFolder";
-            this.qSetCtxRenameFolder.Size = new System.Drawing.Size(206, 22);
+            this.qSetCtxRenameFolder.Size = new System.Drawing.Size(221, 22);
             this.qSetCtxRenameFolder.Text = "Rename";
             this.qSetCtxRenameFolder.VisibleChanged += new System.EventHandler(this.qSetCtxRenameFolder_VisibleChanged);
             // 
@@ -922,60 +926,60 @@
             // 
             this.qSetCtxDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("qSetCtxDeleteItem.Image")));
             this.qSetCtxDeleteItem.Name = "qSetCtxDeleteItem";
-            this.qSetCtxDeleteItem.Size = new System.Drawing.Size(206, 22);
+            this.qSetCtxDeleteItem.Size = new System.Drawing.Size(221, 22);
             this.qSetCtxDeleteItem.Text = "Delete Item";
             // 
             // qSetCtxPurgeAllQueues
             // 
             this.qSetCtxPurgeAllQueues.Image = ((System.Drawing.Image)(resources.GetObject("qSetCtxPurgeAllQueues.Image")));
             this.qSetCtxPurgeAllQueues.Name = "qSetCtxPurgeAllQueues";
-            this.qSetCtxPurgeAllQueues.Size = new System.Drawing.Size(206, 22);
+            this.qSetCtxPurgeAllQueues.Size = new System.Drawing.Size(221, 22);
             this.qSetCtxPurgeAllQueues.Text = "Purge All Queues";
             this.qSetCtxPurgeAllQueues.VisibleChanged += new System.EventHandler(this.qSetCtxPurgeAllQueues_VisibleChanged);
             // 
             // qSetItemsMenuSeparator
             // 
             this.qSetItemsMenuSeparator.Name = "qSetItemsMenuSeparator";
-            this.qSetItemsMenuSeparator.Size = new System.Drawing.Size(203, 6);
+            this.qSetItemsMenuSeparator.Size = new System.Drawing.Size(218, 6);
             // 
             // qSetCtxSendMessage
             // 
             this.qSetCtxSendMessage.Image = ((System.Drawing.Image)(resources.GetObject("qSetCtxSendMessage.Image")));
             this.qSetCtxSendMessage.Name = "qSetCtxSendMessage";
-            this.qSetCtxSendMessage.Size = new System.Drawing.Size(206, 22);
+            this.qSetCtxSendMessage.Size = new System.Drawing.Size(221, 22);
             this.qSetCtxSendMessage.Text = "&New Message";
             this.qSetCtxSendMessage.VisibleChanged += new System.EventHandler(this.qSetCtxSendMessage_VisibleChanged);
             // 
             // qSetCtxSendMessageMenuSeparator
             // 
             this.qSetCtxSendMessageMenuSeparator.Name = "qSetCtxSendMessageMenuSeparator";
-            this.qSetCtxSendMessageMenuSeparator.Size = new System.Drawing.Size(203, 6);
+            this.qSetCtxSendMessageMenuSeparator.Size = new System.Drawing.Size(218, 6);
             // 
             // qSetCtxNewWebServiceClient
             // 
             this.qSetCtxNewWebServiceClient.Image = ((System.Drawing.Image)(resources.GetObject("qSetCtxNewWebServiceClient.Image")));
             this.qSetCtxNewWebServiceClient.Name = "qSetCtxNewWebServiceClient";
-            this.qSetCtxNewWebServiceClient.Size = new System.Drawing.Size(206, 22);
+            this.qSetCtxNewWebServiceClient.Size = new System.Drawing.Size(221, 22);
             this.qSetCtxNewWebServiceClient.Text = "New Web Service Client";
             this.qSetCtxNewWebServiceClient.VisibleChanged += new System.EventHandler(this.qSetCtxNewWebServiceClient_VisibleChanged);
             // 
             // qSetCtxNewWebServiceClientMenuSeparator
             // 
             this.qSetCtxNewWebServiceClientMenuSeparator.Name = "qSetCtxNewWebServiceClientMenuSeparator";
-            this.qSetCtxNewWebServiceClientMenuSeparator.Size = new System.Drawing.Size(203, 6);
+            this.qSetCtxNewWebServiceClientMenuSeparator.Size = new System.Drawing.Size(218, 6);
             // 
             // qSetCtxPurgeQueue
             // 
             this.qSetCtxPurgeQueue.Image = ((System.Drawing.Image)(resources.GetObject("qSetCtxPurgeQueue.Image")));
             this.qSetCtxPurgeQueue.Name = "qSetCtxPurgeQueue";
-            this.qSetCtxPurgeQueue.Size = new System.Drawing.Size(206, 22);
+            this.qSetCtxPurgeQueue.Size = new System.Drawing.Size(221, 22);
             this.qSetCtxPurgeQueue.Text = "Purge";
             // 
             // qSetCtxDeleteQueue
             // 
             this.qSetCtxDeleteQueue.Image = ((System.Drawing.Image)(resources.GetObject("qSetCtxDeleteQueue.Image")));
             this.qSetCtxDeleteQueue.Name = "qSetCtxDeleteQueue";
-            this.qSetCtxDeleteQueue.Size = new System.Drawing.Size(206, 22);
+            this.qSetCtxDeleteQueue.Size = new System.Drawing.Size(221, 22);
             this.qSetCtxDeleteQueue.Text = "Delete Queue...";
             // 
             // messageBrowserCtxMenu
@@ -988,47 +992,63 @@
             this.messageBrowserCtxRefreshMessagesMenuButton,
             this.messageBrowserCtxPurgeQueueMenuButton});
             this.messageBrowserCtxMenu.Name = "messageBrowserCtxMenu";
-            this.messageBrowserCtxMenu.Size = new System.Drawing.Size(118, 120);
+            this.messageBrowserCtxMenu.Size = new System.Drawing.Size(125, 120);
             // 
             // messageBrowserCtxForwardMessageMenuButton
             // 
             this.messageBrowserCtxForwardMessageMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("messageBrowserCtxForwardMessageMenuButton.Image")));
             this.messageBrowserCtxForwardMessageMenuButton.Name = "messageBrowserCtxForwardMessageMenuButton";
-            this.messageBrowserCtxForwardMessageMenuButton.Size = new System.Drawing.Size(117, 22);
+            this.messageBrowserCtxForwardMessageMenuButton.Size = new System.Drawing.Size(124, 22);
             this.messageBrowserCtxForwardMessageMenuButton.Text = "Forward";
             // 
             // messageBrowserCtxMoveMessageMenuButton
             // 
             this.messageBrowserCtxMoveMessageMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("messageBrowserCtxMoveMessageMenuButton.Image")));
             this.messageBrowserCtxMoveMessageMenuButton.Name = "messageBrowserCtxMoveMessageMenuButton";
-            this.messageBrowserCtxMoveMessageMenuButton.Size = new System.Drawing.Size(117, 22);
+            this.messageBrowserCtxMoveMessageMenuButton.Size = new System.Drawing.Size(124, 22);
             this.messageBrowserCtxMoveMessageMenuButton.Text = "Move";
             // 
             // messageBrowserCtxDeleteMessageMenuButton
             // 
             this.messageBrowserCtxDeleteMessageMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("messageBrowserCtxDeleteMessageMenuButton.Image")));
             this.messageBrowserCtxDeleteMessageMenuButton.Name = "messageBrowserCtxDeleteMessageMenuButton";
-            this.messageBrowserCtxDeleteMessageMenuButton.Size = new System.Drawing.Size(117, 22);
+            this.messageBrowserCtxDeleteMessageMenuButton.Size = new System.Drawing.Size(124, 22);
             this.messageBrowserCtxDeleteMessageMenuButton.Text = "Delete";
             // 
             // toolStripMenuItem11
             // 
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(114, 6);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(121, 6);
             // 
             // messageBrowserCtxRefreshMessagesMenuButton
             // 
             this.messageBrowserCtxRefreshMessagesMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("messageBrowserCtxRefreshMessagesMenuButton.Image")));
             this.messageBrowserCtxRefreshMessagesMenuButton.Name = "messageBrowserCtxRefreshMessagesMenuButton";
-            this.messageBrowserCtxRefreshMessagesMenuButton.Size = new System.Drawing.Size(117, 22);
+            this.messageBrowserCtxRefreshMessagesMenuButton.Size = new System.Drawing.Size(124, 22);
             this.messageBrowserCtxRefreshMessagesMenuButton.Text = "Refresh";
             // 
             // messageBrowserCtxPurgeQueueMenuButton
             // 
             this.messageBrowserCtxPurgeQueueMenuButton.Image = ((System.Drawing.Image)(resources.GetObject("messageBrowserCtxPurgeQueueMenuButton.Image")));
             this.messageBrowserCtxPurgeQueueMenuButton.Name = "messageBrowserCtxPurgeQueueMenuButton";
-            this.messageBrowserCtxPurgeQueueMenuButton.Size = new System.Drawing.Size(117, 22);
+            this.messageBrowserCtxPurgeQueueMenuButton.Size = new System.Drawing.Size(124, 22);
             this.messageBrowserCtxPurgeQueueMenuButton.Text = "Purge";
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 25);
+            // 
+            // messageMaxShowComboBox
+            // 
+            this.messageMaxShowComboBox.Items.AddRange(new object[] {
+            "100",
+            "200",
+            "500",
+            "1000"});
+            this.messageMaxShowComboBox.Name = "messageMaxShowComboBox";
+            this.messageMaxShowComboBox.Size = new System.Drawing.Size(121, 25);
+            this.messageMaxShowComboBox.Text = "1000";
             // 
             // QSetEnvironmentForm
             // 
@@ -1162,5 +1182,7 @@
         private System.Windows.Forms.ToolStripMenuItem messageBrowserCtxRefreshMessagesMenuButton;
         private System.Windows.Forms.ToolStripMenuItem messageBrowserCtxPurgeQueueMenuButton;
         private System.Windows.Forms.StatusBarPanel mainStatusBarPanel;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
+        private System.Windows.Forms.ToolStripComboBox messageMaxShowComboBox;
     }
 }

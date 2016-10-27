@@ -10,6 +10,7 @@ using Mulholland.QSet.Model;
 using Mulholland.QSet.Resources;
 using Mulholland.Core;
 using Mulholland.WinForms;
+using System.Collections.Generic;
 
 namespace Mulholland.QSet.Application.Controls
 {
@@ -549,7 +550,9 @@ namespace Mulholland.QSet.Application.Controls
                         
                         //load all of the messages into the list view
                         Action ffs = () => workingPanel.Visible = false;
-                        workingPanel.Invoke(ffs);                        
+                        workingPanel.Invoke(ffs);
+                        List<MessageListViewItem> allMessageList = new List<MessageListViewItem>();
+                        int messageCount = 0;               
                         foreach (System.Messaging.Message message in messagesSnapShot)
                         {						
                             //create the list view item
@@ -583,11 +586,22 @@ namespace Mulholland.QSet.Application.Controls
                             }
 
                             //add the item into the list on a safe thread
-                            if (messagesListView.InvokeRequired)
-                                messagesListView.Invoke(new AddMessageItemToListViewDelegate(AddMessageItemToListView), new object[] {messageItem});
-                            else
-                                AddMessageItemToListView(messageItem);																						
+                          
+                            allMessageList.Add(messageItem);
+                            messageCount++;
+                            if(messageCount>= this.MaxRowShow)
+                            {
+                                break;
+                            }                            																			
                         }
+                        if (allMessageList.Count > 0)
+                        {
+                            if (messagesListView.InvokeRequired)
+                                messagesListView.Invoke(new AddMessageItemToListViewDelegate(AddMessageItemToListView), new object[] { allMessageList.ToArray() });
+                            else
+                                AddMessageItemToListView(allMessageList.ToArray());
+                        }
+
                         //}
                         //else
                         //{						
@@ -615,16 +629,20 @@ namespace Mulholland.QSet.Application.Controls
         }
 
 
-        private delegate void AddMessageItemToListViewDelegate(MessageListViewItem messageItem);
+        private delegate void AddMessageItemToListViewDelegate( MessageListViewItem[] messageItemList);
 
 
         /// <summary>
         /// Adds a message to the list view.
         /// </summary>
-        /// <param name="messageItem">Message to add.</param>
-        private void AddMessageItemToListView(MessageListViewItem messageItem)
+        /// <param name="messageItemList">Message to add.</param>
+        private void AddMessageItemToListView( MessageListViewItem[] messageItemList)
         {
-            messagesListView.Items.Add(messageItem);
+            //messagesListView.Items.Add(messageItem);
+            if(messageItemList != null && messageItemList.Length>0)
+            {
+                messagesListView.Items.AddRange(messageItemList);
+            }
         }
 
 
@@ -728,6 +746,8 @@ namespace Mulholland.QSet.Application.Controls
         }
 
         #endregion
+
+        public int MaxRowShow { get; set; }
     }
     
     #region events

@@ -10,3 +10,8 @@ G:\MulhollandSource\NameSpaces\Mulholland.Core\bin\Debug\Mulholland.Core.xml
 G:\MulhollandSource\NameSpaces\Mulholland.Core\obj\Debug\Mulholland.Core.csprojResolveAssemblyReference.cache
 G:\MulhollandSource\NameSpaces\Mulholland.Core\obj\Debug\Mulholland.Core.dll
 G:\MulhollandSource\NameSpaces\Mulholland.Core\obj\Debug\Mulholland.Core.pdb
+F:\github\QSet\Source\Mulholland.Core\bin\Debug\Mulholland.Core.dll
+F:\github\QSet\Source\Mulholland.Core\bin\Debug\Mulholland.Core.pdb
+F:\github\QSet\Source\Mulholland.Core\bin\Debug\Mulholland.Core.xml
+F:\github\QSet\Source\Mulholland.Core\obj\Debug\Mulholland.Core.dll
+F:\github\QSet\Source\Mulholland.Core\obj\Debug\Mulholland.Core.pdb

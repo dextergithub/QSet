@@ -19,3 +19,14 @@ G:\MulhollandSource\NameSpaces\Mulholland.QSet.Resources\obj\Debug\Mulholland.QS
 G:\MulhollandSource\NameSpaces\Mulholland.QSet.Resources\obj\Debug\Mulholland.QSet.Resources.csproj.GenerateResource.Cache
 G:\MulhollandSource\NameSpaces\Mulholland.QSet.Resources\obj\Debug\Mulholland.QSet.Resources.dll
 G:\MulhollandSource\NameSpaces\Mulholland.QSet.Resources\obj\Debug\Mulholland.QSet.Resources.pdb
+F:\github\QSet\Source\Mulholland.QSet.Resources\bin\Debug\Mulholland.QSet.Resources.dll
+F:\github\QSet\Source\Mulholland.QSet.Resources\bin\Debug\Mulholland.QSet.Resources.pdb
+F:\github\QSet\Source\Mulholland.QSet.Resources\bin\Debug\Mulholland.QSet.Resources
+F:\github\QSet\Source\Mulholland.QSet.Resources\bin\Debug\Mulholland.Core.dll
+F:\github\QSet\Source\Mulholland.QSet.Resources\bin\Debug\Mulholland.Core.pdb
+F:\github\QSet\Source\Mulholland.QSet.Resources\bin\Debug\Mulholland.Core.xml
+F:\github\QSet\Source\Mulholland.QSet.Resources\obj\Debug\Mulholland.QSet.Resources.csprojResolveAssemblyReference.cache
+F:\github\QSet\Source\Mulholland.QSet.Resources\obj\Debug\Mulholland.QSet.Resources.Images.resources
+F:\github\QSet\Source\Mulholland.QSet.Resources\obj\Debug\Mulholland.QSet.Resources.csproj.GenerateResource.Cache
+F:\github\QSet\Source\Mulholland.QSet.Resources\obj\Debug\Mulholland.QSet.Resources.dll
+F:\github\QSet\Source\Mulholland.QSet.Resources\obj\Debug\Mulholland.QSet.Resources.pdb

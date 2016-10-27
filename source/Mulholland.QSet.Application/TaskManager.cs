@@ -280,9 +280,13 @@ namespace Mulholland.QSet.Application
         public void OpenQueue(QSetQueueItem qsetQueueItem)
         {
             if (!IsItemOpen(qsetQueueItem))
+            {
                 _primaryControls.AddTabbedDocumentMessageBrowser(qsetQueueItem, _primaryObjects);
+            }
             else
+            {
                 BringDocumentToFront(qsetQueueItem);
+            }
 
             if (qsetQueueItem.ParentItem == null && _primaryControls.GetQSetExplorerSet() != null)
                 AddActiveQueueToQSet();

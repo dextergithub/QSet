@@ -11,7 +11,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mulholland Software")]
 [assembly: AssemblyProduct("Q Set")]
-[assembly: AssemblyCopyright("© Mulholland Software 2005")]
+[assembly: AssemblyCopyright("?Mulholland Software 2005")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]			
 

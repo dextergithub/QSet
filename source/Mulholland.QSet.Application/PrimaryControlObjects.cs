@@ -506,7 +506,7 @@ namespace Mulholland.QSet.Application
             var messageForm = new MessageBrowserForm();
             messageForm.MessageBrowser.UserSettings = primaryObjects.UserSettings;
             messageForm.MessageBrowser.ImageList = this.GetSize16Icons();
-
+            //messageForm.MessageBrowser.MaxRowShow =this.m
             try
             {
                 messageForm.Show(_dockPanel, DockState.Document);

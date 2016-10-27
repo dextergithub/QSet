@@ -23,3 +23,16 @@ G:\MulhollandSource\NameSpaces\Mulholland.WinForms\obj\Debug\Mulholland.WinForms
 G:\MulhollandSource\NameSpaces\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.csproj.GenerateResource.Cache
 G:\MulhollandSource\NameSpaces\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.dll
 G:\MulhollandSource\NameSpaces\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.pdb
+F:\github\QSet\Source\Mulholland.WinForms\bin\Debug\Mulholland.WinForms.dll
+F:\github\QSet\Source\Mulholland.WinForms\bin\Debug\Mulholland.WinForms.pdb
+F:\github\QSet\Source\Mulholland.WinForms\bin\Debug\Mulholland.WinForms.xml
+F:\github\QSet\Source\Mulholland.WinForms\bin\Debug\Mulholland.Core.dll
+F:\github\QSet\Source\Mulholland.WinForms\bin\Debug\Mulholland.Core.pdb
+F:\github\QSet\Source\Mulholland.WinForms\bin\Debug\Mulholland.Core.xml
+F:\github\QSet\Source\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.csprojResolveAssemblyReference.cache
+F:\github\QSet\Source\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.Controls.BinaryViewer.resources
+F:\github\QSet\Source\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.Controls.XmlTextBox.resources
+F:\github\QSet\Source\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.Controls.XmlViewer.resources
+F:\github\QSet\Source\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.csproj.GenerateResource.Cache
+F:\github\QSet\Source\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.dll
+F:\github\QSet\Source\Mulholland.WinForms\obj\Debug\Mulholland.WinForms.pdb
